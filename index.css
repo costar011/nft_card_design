@@ -95,3 +95,17 @@ body {
     z-index: 10;
     transition:  backdrop-filter 0.4s;
 }
+
+.addtocart__container .btn__addtocart {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 40px);
+
+    background: rgba(255, 255, 255, 0.122);
+    border: none;
+
+    width: 200px;
+    padding: 5px 0;
+    font-size: 18px;
+}
