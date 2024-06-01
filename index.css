@@ -29,3 +29,28 @@ body {
     
     overflow: hidden;
 }
+
+.card::before, .card::after {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #ffffff;
+    filter: blur(50px);
+}
+
+.card::before {
+    top: 0;
+    left: 0;
+}
+
+.card::after {
+    bottom: 0;
+    right: 0;
+}
+
+.img__conatiner {
+    width: 95%;
+    height: 250px;
+}
